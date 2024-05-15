@@ -1,0 +1,123 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "url": "deals",
+      "name": "Leads",
+      "icon": "menu-icon tf-icons bx bx-layout",
+      "slug": "deals"
+    },
+    {
+      "url": "industries",
+      "name": "Industries",
+      "icon": "menu-icon tf-icons bx bx-building-house",
+      "slug": "industries"
+    },
+    {
+      "url": "services",
+      "name": "Services",
+      "icon": "menu-icon tf-icons bx bx-briefcase",
+      "slug": "services"
+    },
+    {
+      "url": "branches",
+      "name": "Branches",
+      "icon": "menu-icon tf-icons bx bx-building-house",
+      "slug": "branches"
+    },
+
+    {
+      "url": "tasks",
+      "name": "task",
+      "icon": "menu-icon tf-icons bx bx-task",
+      "slug": "tasks"
+    },
+
+    {
+      "menuHeader": "Apps"
+    },
+
+    {
+      "url": "calendar",
+      "name": "Calendar",
+      "icon": "menu-icon tf-icons bx bx-calendar",
+      "slug": "app-calendar"
+    },
+
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account",
+          "slug": "pages-account-settings-account"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications",
+          "slug": "pages-account-settings-notifications"
+        },
+        {
+          "url": "pages/account-settings-connections",
+          "name": "Connections",
+          "slug": "pages-account-settings-connections"
+        }
+      ]
+    },
+    {
+      "name": "Authentications",
+      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "auth/login-basic",
+          "name": "Login",
+          "slug": "auth-login-basic"
+        },
+        {
+          "url": "auth/register-basic",
+          "name": "Register",
+          "slug": "auth-register-basic"
+        },
+        {
+          "url": "auth/forgot-password-basic",
+          "name": "Forgot Password",
+          "slug": "auth-forgot-password-basic"
+        }
+      ]
+    },
+
+    {
+      "menuHeader": "Metrics"
+    },
+    {
+      "url": "reports",
+      "name": "Reports",
+      "icon": "menu-icon tf-icons bx bx-line-chart",
+      "slug": "reports"
+    },
+
+    {
+      "menuHeader": "User management"
+    },
+    {
+      "url": "users",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "name": "Users",
+      "slug": "users"
+    },
+    {
+      "url": "user-roles",
+      "icon": "menu-icon tf-icons bx bx-shield",
+      "name": "User Roles",
+      "slug": "user-role"
+    }
+  ]
+}
